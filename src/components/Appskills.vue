@@ -19,14 +19,15 @@
             <div class="break-line"></div>
         </div>
     </section>
-    <AppCard/>
+    <AppProjects/>
 </template>
 
 <script>
-import AppCard from './AppCard.vue';
+
+import AppProjects from './AppProjects.vue';
 export default {
    components:{
-    AppCard,
+    AppProjects,
    }
 }
 </script>

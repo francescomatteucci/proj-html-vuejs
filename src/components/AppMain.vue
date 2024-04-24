@@ -53,14 +53,22 @@
         </div>
 
     </section>
-
+    <section class="device-section">
+        <h2>Expert Design Advice</h2>
+        <span>TRENDING DESIGN NEWS</span>
+        <div class="break-line"></div>
+    </section>
+    <AppCard/>
 </template>
 
 <script>
 import Appskills from './Appskills.vue';
+import AppCard from './AppCard.vue';
 export default {
     components: {
         Appskills,
+        AppCard,
+
     },
 }
 </script>
@@ -197,14 +205,28 @@ p {
 .trust-section::after {
     content: '';
     position: absolute;
-    bottom: -70px;
+    bottom: -60px;
     left: 0;
     width: 100%;
     height: 80px;
     background-image: url('../assets/testimonial_bkgd.jpg');
     background-position: bottom;
-    transform: skewY(-2.5deg);
+    transform: skewY(-2deg);
     transform-origin: bottom left;
     z-index: 999;
+}
+
+.device-section{
+    background-color:#49629B;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    span{
+        letter-spacing: 4px;
+        color:white;
+        padding:20px;
+    }
+
 }
 </style>
