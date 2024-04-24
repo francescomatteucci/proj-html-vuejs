@@ -19,18 +19,40 @@
         </div>
         <div class="container-lg">
             <div class="row">
-                <div class="col-6"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio cum qui sapiente
-                    amet et ipsum magnam corporis dolor nam incidunt quasi possimus, debitis ullam totam earum unde
-                    quia! Eveniet quos aspernatur saepe, delectus voluptas et neque eum cum unde, itaque nobis
-                    inventore, pariatur sapiente! Quod aspernatur veniam expedita id odit.</p></div>
-                <div class="col-6"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima iusto, a veniam
-                    libero culpa assumenda sint accusamus nobis ad neque corporis, quos debitis quam quibusdam
-                    molestiae! Hic quasi debitis accusamus blanditiis suscipit. Ipsam numquam ipsum saepe dolor, quis
-                    aliquam eum velit quia blanditiis fugit sit est possimus nostrum et libero.</p></div>
+                <div class="col-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio cum qui sapiente
+                        amet et ipsum magnam corporis dolor nam incidunt quasi possimus, debitis ullam totam earum unde
+                        quia! Eveniet quos aspernatur saepe, delectus voluptas et neque eum cum unde, itaque nobis
+                        inventore, pariatur sapiente! Quod aspernatur veniam expedita id odit.</p>
+                </div>
+                <div class="col-6">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima iusto, a veniam
+                        libero culpa assumenda sint accusamus nobis ad neque corporis, quos debitis quam quibusdam
+                        molestiae! Hic quasi debitis accusamus blanditiis suscipit. Ipsam numquam ipsum saepe dolor,
+                        quis
+                        aliquam eum velit quia blanditiis fugit sit est possimus nostrum et libero.</p>
+                </div>
             </div>
         </div>
     </section>
-        <Appskills/>
+    <Appskills />
+    <section class="trust-section">
+        <img src="../assets/quotes-1.png" alt="">
+        <p>"That's been one of my mantras - focus and simplicity. Simple can be harder than complex; you have to work
+            hard to get your thinking clean to make it simple."</p>
+        <strong>STEVE JOBS - APPLE</strong>
+        <span>TRUSTED BY GLOBAL BRANDS</span>
+        <div class="container-xxl">
+            <div class="row">
+                <div><img src="../assets/lorem.png" alt=""></div>
+                <div><img src="../assets/america.png" alt=""></div>
+                <div><img src="../assets/gerrard.png" alt=""></div>
+                <div><img src="../assets/roodney.png" alt=""></div>
+                <div><img src="../assets/zanneti.png" alt=""></div>
+            </div>
+        </div>
+
+    </section>
 
 </template>
 
@@ -38,8 +60,8 @@
 import Appskills from './Appskills.vue';
 export default {
     components: {
-    Appskills,
-  },
+        Appskills,
+    },
 }
 </script>
 
@@ -89,7 +111,7 @@ export default {
 }
 
 .about-info-wrapper {
-    background-color:#20232c;
+    background-color: #20232c;
     position: relative;
     margin-bottom: 80px;
     padding-bottom: 80px;
@@ -105,7 +127,7 @@ export default {
         }
 
     }
-    
+
 }
 
 .row {
@@ -113,9 +135,76 @@ export default {
 
 }
 
-p{
-        color:$cyan-blue
+p {
+    color: $cyan-blue
+}
+
+.trust-section {
+    position: relative;
+    background-image: url('../assets/testimonial_bkgd.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    img {
+        padding-top: 140px;
     }
 
+    i {
+        color: $red;
+        font-size: 100px;
+        padding-top: 100px;
+    }
 
+    p {
+        color: $white;
+        font-style: italic;
+    }
+
+    strong {
+        letter-spacing: 1px;
+        color: $white;
+        margin-top: 20px;
+        margin-bottom: 200px;
+    }
+
+    span {
+        color: $white;
+        letter-spacing: 2px;
+    }
+
+    .container-xxl {
+        .row {
+
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+
+            div {
+                width: 120px;
+                padding-bottom: 140px;
+            }
+        }
+
+    }
+
+}
+
+.trust-section::after {
+    content: '';
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-image: url('../assets/testimonial_bkgd.jpg');
+    background-position: bottom;
+    transform: skewY(-2.5deg);
+    transform-origin: bottom left;
+    z-index: 999;
+}
 </style>
