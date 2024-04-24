@@ -2,7 +2,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 $red : #fa225B;
 $white : #ffffff;
-$cyan-blue : #7A89AB;
-$green : #87C856;
-$dark : #1D2028;
+$cyan-blue : #58637c;
+$green : #96c577;
+$dark :#191C23 ;
 
+h2{
+    color:$white;
+    font-size: 44px;
+}
+
+span {
+    color: $cyan-blue;
+    letter-spacing: 2px;
+
+}
+
+.break-line {
+        width: 120px;
+        border-top: 1px solid white;
+        margin-top: 20px;
+        margin-bottom: 60px;
+
+    }
+
+    .container-lg {
+        width: 1024px;
+        margin: 0 auto;
+    }
+
+    .container-xxl{
+        width:100%;
+        margin: 0 auto;
+    }
+
+    .col-6 {
+        width: calc(100% / 2);
+       
+    }

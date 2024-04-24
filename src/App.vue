@@ -1,8 +1,6 @@
 <template>
-  <div class="bg-img">
-    <AppHeader :linkHeaderData="headerData" />
-    <AppMain />
-  </div>
+  <AppHeader :linkHeaderData="headerData" />
+  <AppMain />
   <AppFooter :linkFooterData="footerData" />
 
 </template>
@@ -43,12 +41,3 @@ export default {
 };
 
 </script>
-
-<style lang="scss" scoped>
-.bg-img {
-  background-image: url('imgs/banner_images.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-</style>
