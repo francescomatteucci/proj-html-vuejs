@@ -4,6 +4,7 @@
             <div class="row">
                 <div class="col-4">
                     <div class="card-header">
+                        <div class="flat">FLAT PICTURE FRAMES</div>
                         <img src="../assets/blog3-featured-600x400.jpg" alt="">
                     </div>
                     <div class="card-body">
@@ -16,7 +17,8 @@
                 </div>
                 <div class="col-4">
                     <div class="card-header">
-                        <img src="../assets/blog3-featured-600x400.jpg" alt="">
+                        <div class="flat">FLAT PICTURE FRAMES</div>
+                        <img src="../assets/blog2-featured-600x400.jpg" alt="">
                     </div>
                     <div class="card-body">
                         <h3>Live The Design Process</h3>
@@ -28,7 +30,8 @@
                 </div>
                 <div class="col-4">
                     <div class="card-header">
-                        <img src="../assets/blog3-featured-600x400.jpg" alt="">
+                        <div class="flat">FLAT PICTURE FRAMES</div>
+                        <img src="../assets/blog1-featured-600x400.jpg" alt="">
                     </div>
                     <div class="card-body">
                         <h3>Live The Design Process</h3>
@@ -72,5 +75,28 @@ export default {
             line-height: 2;
         }
     }
+}
+.flat{
+    display:none;
+}
+.card-header:hover{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 61, 97);
+    .flat{
+        display:block;
+        position: absolute;
+        color:$white;
+        z-index: 999;
+        font-size: 20px;
+        
+    }
+    img{
+        position:relative;
+        opacity: 0.5;
+        transition: opacity 0.5s ease-in;
+    }
+    
 }
 </style>

@@ -1,12 +1,12 @@
 <template>
     <div class="container-xxl">
         <div class="row">
-            <div class="col-6" data-text="FLAT PICTURE FRAMES"><div class="flat">FLAT PICTURE FRAMES</div><img src="../assets/portfolio1_featured_item-400x320.jpg" alt=""></div>
-            <div class="col-6" data-text="FLAT PICTURE FRAMES"><div class="flat">FLAT PICTURE FRAMES</div><img src="../assets/portfolio2_featured_item-800x640.jpg" alt=""></div>
-            <div class="col-6" data-text="FLAT PICTURE FRAMES"><div class="flat">FLAT PICTURE FRAMES</div><img src="../assets/portfolio3_featured_item-400x320.jpg" alt=""></div>
-            <div class="col-6" data-text="FLAT PICTURE FRAMES"><div class="flat">FLAT PICTURE FRAMES</div><img src="../assets/portfolio4_featured_item-400x320.jpg" alt=""></div>
-            <div class="col-6" data-text="FLAT PICTURE FRAMES"><div class="flat">FLAT PICTURE FRAMES</div><img src="../assets/portfolio5_featured_item-400x320.jpg" alt=""></div>
-            <div class="col-6" data-text="FLAT PICTURE FRAMES"><div class="flat">FLAT PICTURE FRAMES</div><img src="../assets/portfolio6_featured_item-800x640.jpg" alt=""></div>
+            <div class="col-6"><div class="flat">FLAT PICTURE FRAMES</div><img src="../assets/portfolio1_featured_item-400x320.jpg" alt=""></div>
+            <div class="col-6"><div class="flat">FLAT PICTURE FRAMES</div><img src="../assets/portfolio2_featured_item-800x640.jpg" alt=""></div>
+            <div class="col-6"><div class="flat">FLAT PICTURE FRAMES</div><img src="../assets/portfolio3_featured_item-400x320.jpg" alt=""></div>
+            <div class="col-6"><div class="flat">FLAT PICTURE FRAMES</div><img src="../assets/portfolio4_featured_item-400x320.jpg" alt=""></div>
+            <div class="col-6"><div class="flat">FLAT PICTURE FRAMES</div><img src="../assets/portfolio5_featured_item-400x320.jpg" alt=""></div>
+            <div class="col-6"><div class="flat">FLAT PICTURE FRAMES</div><img src="../assets/portfolio6_featured_item-800x640.jpg" alt=""></div>
         </div>
     </div>
     <div class="container-xxl">
